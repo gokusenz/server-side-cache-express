@@ -46,6 +46,6 @@ app.use((req, res) => {
   res.status(404).send('') //not found
 })
 
-app.listen(process.env.PORT, function () {
-  console.log(`Example app listening on port ${process.env.PORT}!`)
+app.listen(3000, function () {
+  console.log(`Example app listening on port 3000!`)
 })
